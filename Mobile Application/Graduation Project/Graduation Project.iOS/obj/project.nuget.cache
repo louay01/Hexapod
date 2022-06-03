@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "FMypHWGgq4Tq2eXfG29bGVSY6uoQTB5p9EkWfWPgkoUqLKlkizYzw5LrcQmAD3g4DWJvtYmaBSORhPs2uzAnrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\Graduation Project\\Graduation Project\\Graduation Project.iOS\\Graduation Project.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\m2mqttclientdotnetcore\\1.0.1\\m2mqttclientdotnetcore.1.0.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\nuget.commandline\\3.5.0\\nuget.commandline.3.5.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.collections.nongeneric\\4.0.1\\system.collections.nongeneric.4.0.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.net.nameresolution\\4.0.0\\system.net.nameresolution.4.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.net.security\\4.0.0\\system.net.security.4.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.1.0\\system.security.cryptography.x509certificates.4.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.threading.thread\\4.0.0\\system.threading.thread.4.0.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
