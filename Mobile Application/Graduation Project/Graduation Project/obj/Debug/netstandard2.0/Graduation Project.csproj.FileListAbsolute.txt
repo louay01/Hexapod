@@ -1,0 +1,18 @@
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\bin\Debug\netstandard2.0\Graduation Project.deps.json
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\bin\Debug\netstandard2.0\Graduation Project.dll
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\bin\Debug\netstandard2.0\ref\Graduation Project.dll
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\bin\Debug\netstandard2.0\Graduation Project.pdb
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\Graduation Project.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\Graduation Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\Graduation Project.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\Graduation Project.AssemblyInfo.cs
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\Graduation Project.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\Graduation Project.dll
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\ref\Graduation Project.dll
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\Graduation Project.pdb
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\UserPage.xaml.g.cs
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\Connected.xaml.g.cs
+C:\Users\USER\Desktop\Graduation Project\Graduation Project\Graduation Project\obj\Debug\netstandard2.0\Control.xaml.g.cs

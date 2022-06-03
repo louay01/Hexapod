@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Graduation_Project.UserPage"
+             BackgroundColor="LightGray">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="Frame1"
+                BackgroundColor="#515A1F"
+               BorderColor="#F2A308"
+               Padding="24"
+               CornerRadius="35"
+               Margin="0, -35, 0, 0"
+               HeightRequest="350">
+                <StackLayout VerticalOptions="CenterAndExpand" Spacing="0">
+                    <Button x:Name="LogOutBtn"
+                            Clicked="LogOutBtn_Clicked"
+                            BackgroundColor="Transparent"
+                            TextColor="Black"
+                            Margin="0"
+                            HorizontalOptions="EndAndExpand"
+                            Text="Log Out"
+                            TextTransform="None"
+                            BorderColor="Black"
+                            BorderWidth="1"
+                            CornerRadius="20"/>
+                    <Image Source="logo.png"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           HeightRequest="200"/>
+                    <Label Text="@user"
+                       HorizontalTextAlignment="Center"
+                       TextColor="Black" 
+                       FontSize="30"
+                       FontAttributes="Bold"/>
+                </StackLayout>
+            </Frame>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Label x:Name="NoRobots"
+                       Text="No robots available to connect"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="RobotAvailable"
+                       Text="One hexapod available to connect"
+                       IsVisible="False"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="ConnectBtn"
+                        IsVisible="False"
+                        Text="Connect"
+                        BackgroundColor="#F2A308"
+                        CornerRadius="15"
+                        Clicked="ConnectBtn_Clicked"
+                        HorizontalOptions="CenterAndExpand"/>
+                <ImageButton x:Name="RefreshBtn"
+                             Source="refresh.png"
+                             BackgroundColor="Transparent"
+                             Clicked="RefreshBtn_Clicked"
+                             HeightRequest="50"
+                             HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

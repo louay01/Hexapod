@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Graduation_Project.MainPage"
+             BackgroundColor="LightGray">
+
+    <StackLayout>
+        <Frame x:Name="Frame1"
+                BackgroundColor="#515A1F"
+               BorderColor="#F2A308"
+               Padding="24"
+               CornerRadius="35"
+               Margin="0, -35, 0, 0"
+               HeightRequest="350">
+            <StackLayout VerticalOptions="CenterAndExpand" Spacing="0">
+                <Label Text="Cargo"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White" 
+                   FontFamily="serif"
+                   FontSize="56"
+                   FontAttributes="Bold"/>
+                <Label Text="Hexapod"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White" 
+                   FontFamily="serif"
+                   FontSize="56"
+                   FontAttributes="Bold"/>
+            </StackLayout>
+        </Frame>
+        
+        <StackLayout Margin="20, 50, 20, 0" Spacing="20">
+            <Label x:Name="Wrong"
+               IsVisible="False"
+               Text="Wrong Username or Password!"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               Margin="-18.5"/>
+            <Frame CornerRadius="15"
+                   Padding="0"
+                IsClippedToBounds="True">
+                <Entry x:Name="UserNameEntry"
+                   Placeholder="Username"
+                   HeightRequest="50"
+                   BackgroundColor="DarkGray"
+                   ClearButtonVisibility="WhileEditing"
+                   />
+            </Frame>
+            <Frame CornerRadius="15"
+                   Padding="0"
+                IsClippedToBounds="True">
+                <Entry x:Name="PassEntry"
+                       IsPassword="True"
+                       HeightRequest="50"
+                       HorizontalOptions="FillAndExpand"
+                       Placeholder="Password"
+                       BackgroundColor="DarkGray"
+                       ClearButtonVisibility="WhileEditing"/>
+            </Frame>
+        </StackLayout>
+        <Button x:Name="ConnectBtn"
+                BackgroundColor="#F2A308"
+                BorderColor="DarkGreen"
+                BorderWidth="2"
+                TextColor="White"
+                Text="Submit"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="160"
+                Margin="20, 80, 20, 0"
+                Clicked="ConnectBtn_Clicked"
+                CornerRadius="15"/>
+        <Label IsVisible="False" x:Name="label1" Text="Empty" HorizontalOptions="Center" Margin="20" />
+    </StackLayout>
+
+</ContentPage>

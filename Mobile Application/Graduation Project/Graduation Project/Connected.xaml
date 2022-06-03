@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Graduation_Project.Connected"
+             BackgroundColor="LightGray">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="Frame1"
+                BackgroundColor="#515A1F"
+               BorderColor="#F2A308"
+               Padding="24"
+               CornerRadius="35"
+               Margin="0, -35, 0, 0"
+               HeightRequest="350">
+                <StackLayout VerticalOptions="CenterAndExpand" Spacing="0">
+                    <Button x:Name="LogOutBtn"
+                            Clicked="LogOutBtn_Clicked"
+                            BackgroundColor="Transparent"
+                            TextColor="Black"
+                            Margin="0"
+                            HorizontalOptions="EndAndExpand"
+                            Text="Log Out"
+                            TextTransform="None"
+                            BorderColor="Black"
+                            BorderWidth="1"
+                            CornerRadius="20"/>
+                    <Image Source="logo.png"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           HeightRequest="200"/>
+                    <Label Text="@user"
+                       HorizontalTextAlignment="Center"
+                       TextColor="Black" 
+                       FontSize="30"
+                       FontAttributes="Bold"/>
+                </StackLayout>
+            </Frame>
+            <StackLayout Spacing="40">
+                <Label x:Name="Label"
+                       Text="Connected to Hexapod"
+                       Margin="20"
+                       TextColor="Black"
+                       HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="Mode"
+                       Text="choose a Mode"
+                       IsVisible="True"
+                       TextColor="#F2A308"
+                       FontSize="35"
+                       HorizontalOptions="CenterAndExpand"/>
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="CenterAndExpand">
+                        <Label  x:Name="SmallAutomatic"
+                                Text="Automatic Mode"
+                                FontSize="20"/>
+                        <Switch x:Name="switch1"
+                                IsEnabled="False"
+                                ThumbColor="White"
+                                OnColor="LightGreen"
+                                Toggled="switch1_Toggled"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="40" HorizontalOptions="CenterAndExpand">
+                        <Label  x:Name="SmallManual"
+                                Text="Manual Mode"
+                                FontSize="20"/>
+                        <Switch x:Name="switch2"
+                                ThumbColor="White"
+                                OnColor="LightGreen"
+                                Toggled="switch2_Toggled"/>
+                    </StackLayout>
+                </StackLayout>
+                <Button x:Name="StartBtn"
+                        Text="Start"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="White"
+                        Margin="30"
+                        BackgroundColor="#F2A308"
+                        CornerRadius="15"
+                        Clicked="StartBtn_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

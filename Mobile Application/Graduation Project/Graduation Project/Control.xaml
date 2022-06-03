@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Graduation_Project.Control" Rotation="0"
+             BackgroundColor="LightGray">
+    <ContentPage.Content>
+        <StackLayout Rotation="0">
+            <Frame HorizontalOptions="EndAndExpand"
+                   Padding="0"
+                   HeightRequest="150"
+                   WidthRequest="50"
+                   Margin="0, -10, 10, 0"
+                   BackgroundColor="#515A1F"
+                   BorderColor="#F2A308"
+                   CornerRadius="15">
+            </Frame>
+            <ImageButton x:Name="Back"
+                         Source="back.png"
+                         Rotation="90"
+                         HorizontalOptions="EndAndExpand"
+                         BackgroundColor="Transparent"
+                         HeightRequest="50"
+                         Margin="0, -105, 13, 0"
+                         Clicked="Back_Clicked_1"/>
+
+
+            <ImageButton x:Name="RetractBtn2"
+                         Source="retract.png"
+                         VerticalOptions="EndAndExpand"
+                         BackgroundColor="Transparent"
+                         Margin="140, -190, 0, 30"
+                         HeightRequest="40"
+                         Clicked="RetractBtn2_Clicked"/>
+            
+            <Frame x:Name="frame2"
+                   BackgroundColor="#515A1F"
+                   VerticalOptions="StartAndExpand"
+                   HeightRequest="300"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   Margin="10, -180, 0, -340"
+                   CornerRadius="75"
+                   BorderColor="#F2A308"/>
+
+            
+            
+            <StackLayout x:Name="controlLayout2"
+                         HorizontalOptions="StartAndExpand"
+                         VerticalOptions="StartAndExpand"
+                         Margin="30, 0, 0, 100"
+                         Spacing="0">
+                <ImageButton x:Name="left2"
+                       BackgroundColor="#515A1F"
+                             CornerRadius="50"
+                       Source="upArrow.png"
+                       HeightRequest="70"
+                        WidthRequest="0"
+                       Margin="0"
+                       Clicked="left2_Clicked"
+                       Pressed="left2_Pressed"/>
+                <StackLayout Orientation="Horizontal"
+                             Spacing="60">
+                    <ImageButton x:Name="back2"
+                        BackgroundColor="#515A1F"
+                        Source="leftArrow.png"
+                        WidthRequest="70"
+                         CornerRadius="50"
+                         Clicked="back2_Clicked"
+                         Pressed="back2_Pressed"/>
+                    <ImageButton x:Name="forward2"
+                        BackgroundColor="#515A1F"
+                        Source="rightArrow.png"
+                          CornerRadius="50"
+                        WidthRequest="70"
+                        Clicked="forward2_Clicked"
+                        Pressed="forward2_Pressed"/>
+                </StackLayout>
+                <ImageButton x:Name="right2"
+                     BackgroundColor="#515A1F"
+                    Source="downArrow.png"
+                       HeightRequest="70"
+                       CornerRadius="50"
+                      Clicked="right2_Clicked"
+                      Pressed="right2_Pressed"/>
+            </StackLayout>
+            
+
+            <Frame x:Name="frame"
+                   BackgroundColor="#515A1F"
+                   VerticalOptions="EndAndExpand"
+                   HeightRequest="300"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   Margin="10, 30, 0, -280"
+                   CornerRadius="75"
+                   BorderColor="#F2A308"/>
+
+            <ImageButton x:Name="RetractBtn"
+                         Source="retract.png"
+                         Rotation="180"
+                         VerticalOptions="EndAndExpand"
+                         BackgroundColor="Transparent"
+                         Margin="140, 0, 0, -300"
+                         HeightRequest="40"
+                         Clicked="RetractBtn_Clicked"/>
+
+            <StackLayout x:Name="controlLayout"
+                         HorizontalOptions="StartAndExpand"
+                         VerticalOptions="EndAndExpand"
+                         Margin="30, 0, 0, 15"
+                         Spacing="0">
+                <ImageButton x:Name="left"
+                       BackgroundColor="#515A1F"
+                             CornerRadius="50"
+                       Source="upArrow.png"
+                       HeightRequest="70"
+                        WidthRequest="0"
+                       Margin="0"
+                       Clicked="left_Clicked"
+                       Pressed="left_Pressed"/>
+                <StackLayout Orientation="Horizontal"
+                             Spacing="60">
+                    <ImageButton x:Name="back"
+                        BackgroundColor="#515A1F"
+                        Source="leftArrow.png"
+                        WidthRequest="70"
+                         CornerRadius="50"
+                         Clicked="back_Clicked"
+                         Pressed="back_Pressed"/>
+                    <ImageButton x:Name="forward"
+                        BackgroundColor="#515A1F"
+                        Source="rightArrow.png"
+                          CornerRadius="50"
+                        WidthRequest="70"
+                        Clicked="forward_Clicked"
+                        Pressed="forward_Pressed"/>
+                </StackLayout>
+                <ImageButton x:Name="right"
+                     BackgroundColor="#515A1F"
+                    Source="downArrow.png"
+                       HeightRequest="70"
+                       CornerRadius="50"
+                      Clicked="right_Clicked"
+                      Pressed="right_Pressed"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
